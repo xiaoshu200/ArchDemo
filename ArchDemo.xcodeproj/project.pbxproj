@@ -15,13 +15,13 @@
 		244396C01E4958110015816E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 244396BE1E4958110015816E /* LaunchScreen.storyboard */; };
 		244396CB1E4958110015816E /* ArchDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 244396CA1E4958110015816E /* ArchDemoTests.m */; };
 		244396D61E4958110015816E /* ArchDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 244396D51E4958110015816E /* ArchDemoUITests.m */; };
-		244396E51E4AB4E00015816E /* QryActivityRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 244396E41E4AB4E00015816E /* QryActivityRequest.m */; };
-		244396E81E4ABA310015816E /* ArchBaseRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 244396E71E4ABA310015816E /* ArchBaseRequest.m */; };
-		244396EC1E4AEBB30015816E /* ArchBaseViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 244396EB1E4AEBB30015816E /* ArchBaseViewModel.m */; };
-		244396EF1E4AF0A00015816E /* QryActivityViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 244396EE1E4AF0A00015816E /* QryActivityViewModel.m */; };
-		244396F21E4AF5520015816E /* ActivityModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 244396F11E4AF5520015816E /* ActivityModel.m */; };
-		24D7BA3E1E4B0E7300664CCB /* ActivityListModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 24D7BA3D1E4B0E7200664CCB /* ActivityListModel.m */; };
 		2CE203618EE138A5DF805850 /* libPods-ArchDemo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 881EDC2EA63F0C4200A37590 /* libPods-ArchDemo.a */; };
+		CC7D55FB1E53EC1C00A5B31F /* ActivityListModel.m in Sources */ = {isa = PBXBuildFile; fileRef = CC7D55F31E53EC1C00A5B31F /* ActivityListModel.m */; };
+		CC7D55FC1E53EC1C00A5B31F /* ActivityModel.m in Sources */ = {isa = PBXBuildFile; fileRef = CC7D55F51E53EC1C00A5B31F /* ActivityModel.m */; };
+		CC7D55FD1E53EC1D00A5B31F /* QryActivityViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = CC7D55F91E53EC1C00A5B31F /* QryActivityViewModel.m */; };
+		CC7D56031E53EF2A00A5B31F /* ArchBaseRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = CC7D56001E53EF2A00A5B31F /* ArchBaseRequest.m */; };
+		CC7D56041E53EF2A00A5B31F /* ArchBaseViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = CC7D56021E53EF2A00A5B31F /* ArchBaseViewModel.m */; };
+		CC7D56071E53EF5C00A5B31F /* QryActivityRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = CC7D56061E53EF5C00A5B31F /* QryActivityRequest.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -59,20 +59,20 @@
 		244396D11E4958110015816E /* ArchDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ArchDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		244396D51E4958110015816E /* ArchDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ArchDemoUITests.m; sourceTree = "<group>"; };
 		244396D71E4958110015816E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		244396E31E4AB4E00015816E /* QryActivityRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QryActivityRequest.h; sourceTree = "<group>"; };
-		244396E41E4AB4E00015816E /* QryActivityRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QryActivityRequest.m; sourceTree = "<group>"; };
-		244396E61E4ABA310015816E /* ArchBaseRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ArchBaseRequest.h; sourceTree = "<group>"; };
-		244396E71E4ABA310015816E /* ArchBaseRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ArchBaseRequest.m; sourceTree = "<group>"; };
-		244396EA1E4AEBB30015816E /* ArchBaseViewModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ArchBaseViewModel.h; sourceTree = "<group>"; };
-		244396EB1E4AEBB30015816E /* ArchBaseViewModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ArchBaseViewModel.m; sourceTree = "<group>"; };
-		244396ED1E4AF0A00015816E /* QryActivityViewModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QryActivityViewModel.h; sourceTree = "<group>"; };
-		244396EE1E4AF0A00015816E /* QryActivityViewModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QryActivityViewModel.m; sourceTree = "<group>"; };
-		244396F01E4AF5520015816E /* ActivityModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ActivityModel.h; sourceTree = "<group>"; };
-		244396F11E4AF5520015816E /* ActivityModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ActivityModel.m; sourceTree = "<group>"; };
-		24D7BA3C1E4B0E7200664CCB /* ActivityListModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ActivityListModel.h; sourceTree = "<group>"; };
-		24D7BA3D1E4B0E7200664CCB /* ActivityListModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ActivityListModel.m; sourceTree = "<group>"; };
 		4CCFBF0950A107A70CAD473A /* Pods-ArchDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ArchDemo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ArchDemo/Pods-ArchDemo.debug.xcconfig"; sourceTree = "<group>"; };
 		881EDC2EA63F0C4200A37590 /* libPods-ArchDemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ArchDemo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CC7D55F21E53EC1C00A5B31F /* ActivityListModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ActivityListModel.h; sourceTree = "<group>"; };
+		CC7D55F31E53EC1C00A5B31F /* ActivityListModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ActivityListModel.m; sourceTree = "<group>"; };
+		CC7D55F41E53EC1C00A5B31F /* ActivityModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ActivityModel.h; sourceTree = "<group>"; };
+		CC7D55F51E53EC1C00A5B31F /* ActivityModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ActivityModel.m; sourceTree = "<group>"; };
+		CC7D55F81E53EC1C00A5B31F /* QryActivityViewModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QryActivityViewModel.h; sourceTree = "<group>"; };
+		CC7D55F91E53EC1C00A5B31F /* QryActivityViewModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QryActivityViewModel.m; sourceTree = "<group>"; };
+		CC7D55FF1E53EF2A00A5B31F /* ArchBaseRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ArchBaseRequest.h; sourceTree = "<group>"; };
+		CC7D56001E53EF2A00A5B31F /* ArchBaseRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ArchBaseRequest.m; sourceTree = "<group>"; };
+		CC7D56011E53EF2A00A5B31F /* ArchBaseViewModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ArchBaseViewModel.h; sourceTree = "<group>"; };
+		CC7D56021E53EF2A00A5B31F /* ArchBaseViewModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ArchBaseViewModel.m; sourceTree = "<group>"; };
+		CC7D56051E53EF5C00A5B31F /* QryActivityRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QryActivityRequest.h; sourceTree = "<group>"; };
+		CC7D56061E53EF5C00A5B31F /* QryActivityRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QryActivityRequest.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -135,20 +135,10 @@
 		244396AF1E4958110015816E /* ArchDemo */ = {
 			isa = PBXGroup;
 			children = (
-				244396EA1E4AEBB30015816E /* ArchBaseViewModel.h */,
-				244396EB1E4AEBB30015816E /* ArchBaseViewModel.m */,
-				244396E61E4ABA310015816E /* ArchBaseRequest.h */,
-				244396E71E4ABA310015816E /* ArchBaseRequest.m */,
+				CC7D55FE1E53EF2A00A5B31F /* Base */,
+				CC7D55F01E53EC1C00A5B31F /* QryActivity */,
 				244396B31E4958110015816E /* AppDelegate.h */,
 				244396B41E4958110015816E /* AppDelegate.m */,
-				244396ED1E4AF0A00015816E /* QryActivityViewModel.h */,
-				244396EE1E4AF0A00015816E /* QryActivityViewModel.m */,
-				244396E31E4AB4E00015816E /* QryActivityRequest.h */,
-				244396E41E4AB4E00015816E /* QryActivityRequest.m */,
-				24D7BA3C1E4B0E7200664CCB /* ActivityListModel.h */,
-				24D7BA3D1E4B0E7200664CCB /* ActivityListModel.m */,
-				244396F01E4AF5520015816E /* ActivityModel.h */,
-				244396F11E4AF5520015816E /* ActivityModel.m */,
 				244396B61E4958110015816E /* ViewController.h */,
 				244396B71E4958110015816E /* ViewController.m */,
 				244396B91E4958110015816E /* Main.storyboard */,
@@ -184,6 +174,56 @@
 				244396D71E4958110015816E /* Info.plist */,
 			);
 			path = ArchDemoUITests;
+			sourceTree = "<group>";
+		};
+		CC7D55F01E53EC1C00A5B31F /* QryActivity */ = {
+			isa = PBXGroup;
+			children = (
+				CC7D55F11E53EC1C00A5B31F /* Model */,
+				CC7D55F61E53EC1C00A5B31F /* View */,
+				CC7D55F71E53EC1C00A5B31F /* ViewModel */,
+			);
+			path = QryActivity;
+			sourceTree = "<group>";
+		};
+		CC7D55F11E53EC1C00A5B31F /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				CC7D55F21E53EC1C00A5B31F /* ActivityListModel.h */,
+				CC7D55F31E53EC1C00A5B31F /* ActivityListModel.m */,
+				CC7D55F41E53EC1C00A5B31F /* ActivityModel.h */,
+				CC7D55F51E53EC1C00A5B31F /* ActivityModel.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		CC7D55F61E53EC1C00A5B31F /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		CC7D55F71E53EC1C00A5B31F /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				CC7D55F81E53EC1C00A5B31F /* QryActivityViewModel.h */,
+				CC7D55F91E53EC1C00A5B31F /* QryActivityViewModel.m */,
+				CC7D56051E53EF5C00A5B31F /* QryActivityRequest.h */,
+				CC7D56061E53EF5C00A5B31F /* QryActivityRequest.m */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		CC7D55FE1E53EF2A00A5B31F /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				CC7D55FF1E53EF2A00A5B31F /* ArchBaseRequest.h */,
+				CC7D56001E53EF2A00A5B31F /* ArchBaseRequest.m */,
+				CC7D56011E53EF2A00A5B31F /* ArchBaseViewModel.h */,
+				CC7D56021E53EF2A00A5B31F /* ArchBaseViewModel.m */,
+			);
+			path = Base;
 			sourceTree = "<group>";
 		};
 		FA099ABB827CD1B9E26B569C /* Frameworks */ = {
@@ -378,15 +418,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				244396F21E4AF5520015816E /* ActivityModel.m in Sources */,
+				CC7D55FB1E53EC1C00A5B31F /* ActivityListModel.m in Sources */,
 				244396B81E4958110015816E /* ViewController.m in Sources */,
-				244396EF1E4AF0A00015816E /* QryActivityViewModel.m in Sources */,
-				244396E81E4ABA310015816E /* ArchBaseRequest.m in Sources */,
 				244396B51E4958110015816E /* AppDelegate.m in Sources */,
-				244396EC1E4AEBB30015816E /* ArchBaseViewModel.m in Sources */,
+				CC7D56071E53EF5C00A5B31F /* QryActivityRequest.m in Sources */,
+				CC7D55FD1E53EC1D00A5B31F /* QryActivityViewModel.m in Sources */,
+				CC7D55FC1E53EC1C00A5B31F /* ActivityModel.m in Sources */,
 				244396B21E4958110015816E /* main.m in Sources */,
-				244396E51E4AB4E00015816E /* QryActivityRequest.m in Sources */,
-				24D7BA3E1E4B0E7300664CCB /* ActivityListModel.m in Sources */,
+				CC7D56041E53EF2A00A5B31F /* ArchBaseViewModel.m in Sources */,
+				CC7D56031E53EF2A00A5B31F /* ArchBaseRequest.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
