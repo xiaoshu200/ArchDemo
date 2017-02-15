@@ -8,6 +8,7 @@
 
 #import "AppDelegate.h"
 #import <CocoaLumberjack/CocoaLumberjack.h>
+#import "ViewController.h"
 
 @interface AppDelegate ()
 
@@ -18,7 +19,9 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
-    
+    self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
+    self.window.backgroundColor = [UIColor whiteColor];
+
     [DDLog addLogger:[DDASLLogger sharedInstance]];
     [DDLog addLogger:[DDTTYLogger sharedInstance]];
     DDFileLogger *fileLogger = [[DDFileLogger alloc] init];
@@ -27,6 +30,16 @@
     
     [DDLog addLogger:fileLogger];
     
+    //引导页处理
+    BOOL isShowIntrodctryPage = NO;
+    if (isShowIntrodctryPage) {
+        
+    }else{
+        ViewController *mainVc = [[ViewController alloc] init];
+        self.window.rootViewController = mainVc;
+    }
+    [self.window makeKeyAndVisible];
+
     return YES;
 }
 
