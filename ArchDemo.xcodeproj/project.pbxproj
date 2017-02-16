@@ -9,7 +9,6 @@
 /* Begin PBXBuildFile section */
 		244396B21E4958110015816E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 244396B11E4958110015816E /* main.m */; };
 		244396B51E4958110015816E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 244396B41E4958110015816E /* AppDelegate.m */; };
-		244396B81E4958110015816E /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 244396B71E4958110015816E /* ViewController.m */; };
 		244396BD1E4958110015816E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 244396BC1E4958110015816E /* Assets.xcassets */; };
 		244396C01E4958110015816E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 244396BE1E4958110015816E /* LaunchScreen.storyboard */; };
 		244396CB1E4958110015816E /* ArchDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 244396CA1E4958110015816E /* ArchDemoTests.m */; };
@@ -46,6 +45,7 @@
 		CC7D56C71E5407DC00A5B31F /* launch_screen_one_slogan@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = CC7D56AF1E5407DC00A5B31F /* launch_screen_one_slogan@2x.png */; };
 		CC7D56C81E5407DC00A5B31F /* launch_screen_one_slogan@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = CC7D56B01E5407DC00A5B31F /* launch_screen_one_slogan@3x.png */; };
 		CC7D56CE1E5423FE00A5B31F /* IntrodctionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CC7D56CD1E5423FE00A5B31F /* IntrodctionViewController.m */; };
+		CC7D56D11E554BFE00A5B31F /* QryViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CC7D56D01E554BFE00A5B31F /* QryViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -71,8 +71,6 @@
 		244396B11E4958110015816E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		244396B31E4958110015816E /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		244396B41E4958110015816E /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		244396B61E4958110015816E /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		244396B71E4958110015816E /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		244396BC1E4958110015816E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		244396BF1E4958110015816E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		244396C11E4958110015816E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -122,6 +120,8 @@
 		CC7D56B01E5407DC00A5B31F /* launch_screen_one_slogan@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "launch_screen_one_slogan@3x.png"; sourceTree = "<group>"; };
 		CC7D56CC1E5423FE00A5B31F /* IntrodctionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IntrodctionViewController.h; sourceTree = "<group>"; };
 		CC7D56CD1E5423FE00A5B31F /* IntrodctionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IntrodctionViewController.m; sourceTree = "<group>"; };
+		CC7D56CF1E554BFE00A5B31F /* QryViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QryViewController.h; sourceTree = "<group>"; };
+		CC7D56D01E554BFE00A5B31F /* QryViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QryViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -189,8 +189,6 @@
 				CC7D56951E5407DC00A5B31F /* Source */,
 				244396B31E4958110015816E /* AppDelegate.h */,
 				244396B41E4958110015816E /* AppDelegate.m */,
-				244396B61E4958110015816E /* ViewController.h */,
-				244396B71E4958110015816E /* ViewController.m */,
 				244396BC1E4958110015816E /* Assets.xcassets */,
 				244396BE1E4958110015816E /* LaunchScreen.storyboard */,
 				244396C11E4958110015816E /* Info.plist */,
@@ -239,6 +237,7 @@
 		CC7D56831E5407BF00A5B31F /* BusinessCom */ = {
 			isa = PBXGroup;
 			children = (
+				CC7D56D21E5588EF00A5B31F /* MainPage */,
 				CC7D56841E5407BF00A5B31F /* IntroductoryPage */,
 				CC7D56851E5407BF00A5B31F /* QryActivity */,
 			);
@@ -279,6 +278,8 @@
 		CC7D568B1E5407BF00A5B31F /* View */ = {
 			isa = PBXGroup;
 			children = (
+				CC7D56CF1E554BFE00A5B31F /* QryViewController.h */,
+				CC7D56D01E554BFE00A5B31F /* QryViewController.m */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -370,6 +371,21 @@
 			children = (
 			);
 			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		CC7D56D21E5588EF00A5B31F /* MainPage */ = {
+			isa = PBXGroup;
+			children = (
+				CC7D56D31E5588EF00A5B31F /* View */,
+			);
+			path = MainPage;
+			sourceTree = "<group>";
+		};
+		CC7D56D31E5588EF00A5B31F /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 		FA099ABB827CD1B9E26B569C /* Frameworks */ = {
@@ -588,13 +604,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				CC7D56941E5407BF00A5B31F /* QryActivityViewModel.m in Sources */,
-				244396B81E4958110015816E /* ViewController.m in Sources */,
 				CC7D56CE1E5423FE00A5B31F /* IntrodctionViewController.m in Sources */,
 				CC7D56931E5407BF00A5B31F /* QryActivityRequest.m in Sources */,
 				244396B51E4958110015816E /* AppDelegate.m in Sources */,
 				CC7D56911E5407BF00A5B31F /* ActivityListModel.m in Sources */,
 				CC7D56921E5407BF00A5B31F /* ActivityModel.m in Sources */,
 				244396B21E4958110015816E /* main.m in Sources */,
+				CC7D56D11E554BFE00A5B31F /* QryViewController.m in Sources */,
 				CC7D56041E53EF2A00A5B31F /* ArchBaseViewModel.m in Sources */,
 				CC7D56031E53EF2A00A5B31F /* ArchBaseRequest.m in Sources */,
 			);

@@ -6,12 +6,12 @@
 //  Copyright © 2017 com.pingan. All rights reserved.
 //
 
-#import "ViewController.h"
+#import "QryViewController.h"
 
 #import "QryActivityViewModel.h"
 #import "View+MASAdditions.h"
 
-@interface ViewController ()
+@interface QryViewController ()
 
 //声明视图
 @property (nonatomic, strong) UITextField *usernameTF;
@@ -19,7 +19,7 @@
 
 @end
 
-@implementation ViewController
+@implementation QryViewController
 
 - (void)viewDidLoad {
     [super viewDidLoad];
