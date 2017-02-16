@@ -8,6 +8,8 @@
 
 #import "AppDelegate.h"
 #import <CocoaLumberjack/CocoaLumberjack.h>
+#import "QryViewController.h"
+#import "IntrodctionViewController.h"
 #import "YTKNetworkConfig.h"
 
 @interface AppDelegate ()
@@ -19,7 +21,9 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
-    
+    self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
+    self.window.backgroundColor = [UIColor whiteColor];
+
     [DDLog addLogger:[DDASLLogger sharedInstance]];
     [DDLog addLogger:[DDTTYLogger sharedInstance]];
     DDFileLogger *fileLogger = [[DDFileLogger alloc] init];
@@ -27,12 +31,33 @@
     fileLogger.logFileManager.maximumNumberOfLogFiles = 7;
     [DDLog addLogger:fileLogger];
     
+    //引导页处理
+    BOOL isShowIntrodctryPage = YES;
+    if (isShowIntrodctryPage) {
+        IntrodctionViewController *introductVc = [[IntrodctionViewController alloc] init];
+        self.window.rootViewController = introductVc;
+    }else{
+        QryViewController *mainVc = [[QryViewController alloc] init];
+        self.window.rootViewController = mainVc;
+    }
+    [self.window makeKeyAndVisible];
+
     YTKNetworkConfig *config = [YTKNetworkConfig sharedConfig];
     config.debugLogEnabled = YES;
     
     return YES;
 }
 
+-(void)createMainPage{
+    UITabBarController *tabBar = [[UITabBarController alloc] init];
+    QryViewController *qryVc = [[QryViewController alloc] init];
+    
+    UIViewController *messageVc = [UIViewController new];
+    messageVc.tabBarItem.title = @"消息";
+    
+    tabBar.viewControllers = @[qryVc];
+    self.window.rootViewController = tabBar;
+}
 - (void)applicationWillResignActive:(UIApplication *)application {
     // Sent when the application is about to move from active to inactive state. This can occur for certain types of temporary interruptions (such as an incoming phone call or SMS message) or when the user quits the application and it begins the transition to the background state.
     // Use this method to pause ongoing tasks, disable timers, and invalidate graphics rendering callbacks. Games should use this method to pause the game.
