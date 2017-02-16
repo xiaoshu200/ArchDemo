@@ -8,8 +8,12 @@
 
 #import "AppDelegate.h"
 #import <CocoaLumberjack/CocoaLumberjack.h>
+<<<<<<< HEAD
 #import "QryViewController.h"
 #import "IntrodctionViewController.h"
+=======
+#import "YTKNetworkConfig.h"
+>>>>>>> 7dd390dae6ad753133b9351bbe14681514b4ae3c
 
 @interface AppDelegate ()
 
@@ -28,9 +32,9 @@
     DDFileLogger *fileLogger = [[DDFileLogger alloc] init];
     fileLogger.rollingFrequency = 60 * 60 * 24; // 24 hour rolling
     fileLogger.logFileManager.maximumNumberOfLogFiles = 7;
-    
     [DDLog addLogger:fileLogger];
     
+<<<<<<< HEAD
     //引导页处理
     BOOL isShowIntrodctryPage = YES;
     if (isShowIntrodctryPage) {
@@ -42,6 +46,11 @@
     }
     [self.window makeKeyAndVisible];
 
+=======
+    YTKNetworkConfig *config = [YTKNetworkConfig sharedConfig];
+    config.debugLogEnabled = YES;
+    
+>>>>>>> 7dd390dae6ad753133b9351bbe14681514b4ae3c
     return YES;
 }
 
