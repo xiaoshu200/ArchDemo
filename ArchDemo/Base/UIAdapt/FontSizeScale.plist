@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>UIDeviceResolution</key>
+		<integer>1</integer>
+		<key>DeviceEnum</key>
+		<string>UIDevice_iPhoneHiRes</string>
+		<key>DeviceDes</key>
+		<string>iPhone 4,4S 高清分辨率(640x960px) 对应DeviceHelper-UIDeviceResolution值</string>
+		<key>FontScale</key>
+		<string>1.0</string>
+	</dict>
+	<dict>
+		<key>UIDeviceResolution</key>
+		<integer>2</integer>
+		<key>DeviceEnum</key>
+		<string>UIDevice_iPhone5</string>
+		<key>DeviceDes</key>
+		<string>iPhone 5 高清分辨率(640x1136px) 对应DeviceHelper-UIDeviceResolution值</string>
+		<key>FontScale</key>
+		<string>1.0</string>
+	</dict>
+	<dict>
+		<key>UIDeviceResolution</key>
+		<integer>3</integer>
+		<key>DeviceEnum</key>
+		<string>UIDevice_iPhone6</string>
+		<key>DeviceDes</key>
+		<string>iPhone 6  高清分辨率(750x1134px)对应DeviceHelper-UIDeviceResolution值</string>
+		<key>FontScale</key>
+		<string>1.5</string>
+	</dict>
+	<dict>
+		<key>UIDeviceResolution</key>
+		<integer>4</integer>
+		<key>DeviceEnum</key>
+		<string>UIDevice_iPhone6pluse</string>
+		<key>DeviceDes</key>
+		<string>iPhone 6+ 高清分辨率(1242x2208px) 对应DeviceHelper-UIDeviceResolution值</string>
+		<key>FontScale</key>
+		<string>2.0</string>
+	</dict>
+</array>
+</plist>
