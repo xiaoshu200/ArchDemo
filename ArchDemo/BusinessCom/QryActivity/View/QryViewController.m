@@ -8,7 +8,7 @@
 
 #import "QryViewController.h"
 
-#import "UIFont+Adapt.h"
+//#import "UIFont+Adapt.h"
 #import "QryActivityViewModel.h"
 #import "View+MASAdditions.h"
 
@@ -100,7 +100,7 @@
     if (_passwordTF == nil) {
         _passwordTF = [[UITextField alloc] init];
         _passwordTF.placeholder = @"密码";
-        _passwordTF.font = [UIFont scaleSystemFontOfSize:12.0f];
+//        _passwordTF.font = [UIFont scaleSystemFontOfSize:12.0f];
         _passwordTF.contentVerticalAlignment = UIControlContentVerticalAlignmentCenter;
         _passwordTF.clearButtonMode = UITextFieldViewModeWhileEditing;
         _passwordTF.textAlignment = NSTextAlignmentLeft;
@@ -118,7 +118,7 @@
         _loginBtn = [[UIButton alloc] init];
         [_loginBtn setBackgroundImage:[UIImage imageNamed:@"btn_red_big"] forState:UIControlStateNormal];
         [_loginBtn setTitle:@"登录" forState:UIControlStateNormal];
-        _loginBtn.titleLabel.font = [UIFont scaleSystemFontOfSize:14.0f];
+//        _loginBtn.titleLabel.font = [UIFont scaleSystemFontOfSize:14.0f];
         [_loginBtn setTitleColor:[UIColor whiteColor] forState:UIControlStateNormal];
         [_loginBtn addTarget:self action:@selector(loginEvent) forControlEvents:UIControlEventTouchUpInside];
     }
