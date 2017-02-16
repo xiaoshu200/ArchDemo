@@ -16,10 +16,16 @@
 		244396CB1E4958110015816E /* ArchDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 244396CA1E4958110015816E /* ArchDemoTests.m */; };
 		244396D61E4958110015816E /* ArchDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 244396D51E4958110015816E /* ArchDemoUITests.m */; };
 		244396E51E4AB4E00015816E /* QryActivityRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 244396E41E4AB4E00015816E /* QryActivityRequest.m */; };
-		244396E81E4ABA310015816E /* ArchBaseRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 244396E71E4ABA310015816E /* ArchBaseRequest.m */; };
-		244396EC1E4AEBB30015816E /* ArchBaseViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 244396EB1E4AEBB30015816E /* ArchBaseViewModel.m */; };
 		244396EF1E4AF0A00015816E /* QryActivityViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 244396EE1E4AF0A00015816E /* QryActivityViewModel.m */; };
 		244396F21E4AF5520015816E /* ActivityModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 244396F11E4AF5520015816E /* ActivityModel.m */; };
+		245964C11E554E6900D3BE1F /* ArchBaseRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 245964BA1E554E6900D3BE1F /* ArchBaseRequest.m */; };
+		245964C21E554E6900D3BE1F /* ArchBaseViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 245964BC1E554E6900D3BE1F /* ArchBaseViewModel.m */; };
+		245964C31E554E6900D3BE1F /* btn_red_big@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 245964BF1E554E6900D3BE1F /* btn_red_big@2x.png */; };
+		245964C41E554E6900D3BE1F /* btn_red_big@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 245964C01E554E6900D3BE1F /* btn_red_big@3x.png */; };
+		245964C61E554F2300D3BE1F /* FontSizeScale.plist in Resources */ = {isa = PBXBuildFile; fileRef = 245964C51E554F2300D3BE1F /* FontSizeScale.plist */; };
+		245964CC1E554FBB00D3BE1F /* UIFont+Adapt.m in Sources */ = {isa = PBXBuildFile; fileRef = 245964CB1E554FBB00D3BE1F /* UIFont+Adapt.m */; };
+		245964CF1E55501B00D3BE1F /* FontTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 245964CE1E55501B00D3BE1F /* FontTool.m */; };
+		245964D21E5550C500D3BE1F /* DeviceHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 245964D11E5550C500D3BE1F /* DeviceHelper.m */; };
 		24D7BA3E1E4B0E7300664CCB /* ActivityListModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 24D7BA3D1E4B0E7200664CCB /* ActivityListModel.m */; };
 		2CE203618EE138A5DF805850 /* libPods-ArchDemo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 881EDC2EA63F0C4200A37590 /* libPods-ArchDemo.a */; };
 /* End PBXBuildFile section */
@@ -61,14 +67,23 @@
 		244396D71E4958110015816E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		244396E31E4AB4E00015816E /* QryActivityRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QryActivityRequest.h; sourceTree = "<group>"; };
 		244396E41E4AB4E00015816E /* QryActivityRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QryActivityRequest.m; sourceTree = "<group>"; };
-		244396E61E4ABA310015816E /* ArchBaseRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ArchBaseRequest.h; sourceTree = "<group>"; };
-		244396E71E4ABA310015816E /* ArchBaseRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ArchBaseRequest.m; sourceTree = "<group>"; };
-		244396EA1E4AEBB30015816E /* ArchBaseViewModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ArchBaseViewModel.h; sourceTree = "<group>"; };
-		244396EB1E4AEBB30015816E /* ArchBaseViewModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ArchBaseViewModel.m; sourceTree = "<group>"; };
 		244396ED1E4AF0A00015816E /* QryActivityViewModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QryActivityViewModel.h; sourceTree = "<group>"; };
 		244396EE1E4AF0A00015816E /* QryActivityViewModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QryActivityViewModel.m; sourceTree = "<group>"; };
 		244396F01E4AF5520015816E /* ActivityModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ActivityModel.h; sourceTree = "<group>"; };
 		244396F11E4AF5520015816E /* ActivityModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ActivityModel.m; sourceTree = "<group>"; };
+		245964B91E554E6900D3BE1F /* ArchBaseRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ArchBaseRequest.h; sourceTree = "<group>"; };
+		245964BA1E554E6900D3BE1F /* ArchBaseRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ArchBaseRequest.m; sourceTree = "<group>"; };
+		245964BB1E554E6900D3BE1F /* ArchBaseViewModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ArchBaseViewModel.h; sourceTree = "<group>"; };
+		245964BC1E554E6900D3BE1F /* ArchBaseViewModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ArchBaseViewModel.m; sourceTree = "<group>"; };
+		245964BF1E554E6900D3BE1F /* btn_red_big@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "btn_red_big@2x.png"; sourceTree = "<group>"; };
+		245964C01E554E6900D3BE1F /* btn_red_big@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "btn_red_big@3x.png"; sourceTree = "<group>"; };
+		245964C51E554F2300D3BE1F /* FontSizeScale.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = FontSizeScale.plist; sourceTree = "<group>"; };
+		245964CA1E554FBB00D3BE1F /* UIFont+Adapt.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIFont+Adapt.h"; sourceTree = "<group>"; };
+		245964CB1E554FBB00D3BE1F /* UIFont+Adapt.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIFont+Adapt.m"; sourceTree = "<group>"; };
+		245964CD1E55501B00D3BE1F /* FontTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FontTool.h; sourceTree = "<group>"; };
+		245964CE1E55501B00D3BE1F /* FontTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FontTool.m; sourceTree = "<group>"; };
+		245964D01E5550C500D3BE1F /* DeviceHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DeviceHelper.h; sourceTree = "<group>"; };
+		245964D11E5550C500D3BE1F /* DeviceHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DeviceHelper.m; sourceTree = "<group>"; };
 		24D7BA3C1E4B0E7200664CCB /* ActivityListModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ActivityListModel.h; sourceTree = "<group>"; };
 		24D7BA3D1E4B0E7200664CCB /* ActivityListModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ActivityListModel.m; sourceTree = "<group>"; };
 		4CCFBF0950A107A70CAD473A /* Pods-ArchDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ArchDemo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ArchDemo/Pods-ArchDemo.debug.xcconfig"; sourceTree = "<group>"; };
@@ -135,10 +150,8 @@
 		244396AF1E4958110015816E /* ArchDemo */ = {
 			isa = PBXGroup;
 			children = (
-				244396EA1E4AEBB30015816E /* ArchBaseViewModel.h */,
-				244396EB1E4AEBB30015816E /* ArchBaseViewModel.m */,
-				244396E61E4ABA310015816E /* ArchBaseRequest.h */,
-				244396E71E4ABA310015816E /* ArchBaseRequest.m */,
+				245964B71E554E6900D3BE1F /* Base */,
+				245964BE1E554E6900D3BE1F /* Resouces */,
 				244396B31E4958110015816E /* AppDelegate.h */,
 				244396B41E4958110015816E /* AppDelegate.m */,
 				244396ED1E4AF0A00015816E /* QryActivityViewModel.h */,
@@ -184,6 +197,49 @@
 				244396D71E4958110015816E /* Info.plist */,
 			);
 			path = ArchDemoUITests;
+			sourceTree = "<group>";
+		};
+		245964B71E554E6900D3BE1F /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				245964B81E554E6900D3BE1F /* Network */,
+				245964BD1E554E6900D3BE1F /* UIAdapt */,
+			);
+			path = Base;
+			sourceTree = "<group>";
+		};
+		245964B81E554E6900D3BE1F /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				245964B91E554E6900D3BE1F /* ArchBaseRequest.h */,
+				245964BA1E554E6900D3BE1F /* ArchBaseRequest.m */,
+				245964BB1E554E6900D3BE1F /* ArchBaseViewModel.h */,
+				245964BC1E554E6900D3BE1F /* ArchBaseViewModel.m */,
+			);
+			path = Network;
+			sourceTree = "<group>";
+		};
+		245964BD1E554E6900D3BE1F /* UIAdapt */ = {
+			isa = PBXGroup;
+			children = (
+				245964C51E554F2300D3BE1F /* FontSizeScale.plist */,
+				245964CA1E554FBB00D3BE1F /* UIFont+Adapt.h */,
+				245964CB1E554FBB00D3BE1F /* UIFont+Adapt.m */,
+				245964CD1E55501B00D3BE1F /* FontTool.h */,
+				245964CE1E55501B00D3BE1F /* FontTool.m */,
+				245964D01E5550C500D3BE1F /* DeviceHelper.h */,
+				245964D11E5550C500D3BE1F /* DeviceHelper.m */,
+			);
+			path = UIAdapt;
+			sourceTree = "<group>";
+		};
+		245964BE1E554E6900D3BE1F /* Resouces */ = {
+			isa = PBXGroup;
+			children = (
+				245964BF1E554E6900D3BE1F /* btn_red_big@2x.png */,
+				245964C01E554E6900D3BE1F /* btn_red_big@3x.png */,
+			);
+			path = Resouces;
 			sourceTree = "<group>";
 		};
 		FA099ABB827CD1B9E26B569C /* Frameworks */ = {
@@ -305,7 +361,10 @@
 			files = (
 				244396C01E4958110015816E /* LaunchScreen.storyboard in Resources */,
 				244396BD1E4958110015816E /* Assets.xcassets in Resources */,
+				245964C31E554E6900D3BE1F /* btn_red_big@2x.png in Resources */,
+				245964C41E554E6900D3BE1F /* btn_red_big@3x.png in Resources */,
 				244396BB1E4958110015816E /* Main.storyboard in Resources */,
+				245964C61E554F2300D3BE1F /* FontSizeScale.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -381,11 +440,14 @@
 				244396F21E4AF5520015816E /* ActivityModel.m in Sources */,
 				244396B81E4958110015816E /* ViewController.m in Sources */,
 				244396EF1E4AF0A00015816E /* QryActivityViewModel.m in Sources */,
-				244396E81E4ABA310015816E /* ArchBaseRequest.m in Sources */,
+				245964CC1E554FBB00D3BE1F /* UIFont+Adapt.m in Sources */,
 				244396B51E4958110015816E /* AppDelegate.m in Sources */,
-				244396EC1E4AEBB30015816E /* ArchBaseViewModel.m in Sources */,
+				245964D21E5550C500D3BE1F /* DeviceHelper.m in Sources */,
+				245964CF1E55501B00D3BE1F /* FontTool.m in Sources */,
 				244396B21E4958110015816E /* main.m in Sources */,
 				244396E51E4AB4E00015816E /* QryActivityRequest.m in Sources */,
+				245964C21E554E6900D3BE1F /* ArchBaseViewModel.m in Sources */,
+				245964C11E554E6900D3BE1F /* ArchBaseRequest.m in Sources */,
 				24D7BA3E1E4B0E7300664CCB /* ActivityListModel.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

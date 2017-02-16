@@ -8,6 +8,7 @@
 
 #import "AppDelegate.h"
 #import <CocoaLumberjack/CocoaLumberjack.h>
+#import "YTKNetworkConfig.h"
 
 @interface AppDelegate ()
 
@@ -24,8 +25,10 @@
     DDFileLogger *fileLogger = [[DDFileLogger alloc] init];
     fileLogger.rollingFrequency = 60 * 60 * 24; // 24 hour rolling
     fileLogger.logFileManager.maximumNumberOfLogFiles = 7;
-    
     [DDLog addLogger:fileLogger];
+    
+    YTKNetworkConfig *config = [YTKNetworkConfig sharedConfig];
+    config.debugLogEnabled = YES;
     
     return YES;
 }

@@ -234,7 +234,21 @@
     }
 }
 
-
+//宿主APP版本号
++ (NSString *)getAppVersion
+{
+#if (TARGET_OS_IPHONE || TARGET_IPHONE_SIMULATOR || TARGET_OS_MAC)
+    NSString * value = [[[NSBundle mainBundle] infoDictionary] objectForKey:@"CFBundleShortVersionString"];
+    if(nil == value || 0 == value.length)
+    {
+        value = [[[NSBundle mainBundle] infoDictionary] objectForKey:@"CFBundleVersion"];
+    }
+    
+    return value;
+#else
+    return nil;
+#endif
+}
 
 /*
  * keychain+随机uuid
@@ -304,7 +318,61 @@
     return ret;
 }
 
+///判断手机尺寸型号
+-(NSString*)judePhone6PString{
+    NSString *xinghao =nil;
+    double height = [UIScreen mainScreen].bounds.size.height;
+    if(height == 736) {
+        xinghao = @"6p";
+    }
+    else if(height == 667){
+        xinghao = @"6";
+    }
+    else if(height == 568){
+        xinghao = @"5";
+    }
+    else if(height == 480){
+        xinghao = @"4";
+    }
+    return xinghao;
+}
 
+/*判断型号模式
+ [UIScreen mainScreen].currentMode.size
+ */
+-(void)judeingIphoneSize{
+    CGSize currentSize = [UIScreen mainScreen].currentMode.size;
+    CGSize size6PBig = CGSizeMake(1125, 2001);
+    CGSize size6P = CGSizeMake(1242, 2208);
+    CGSize size6Big = CGSizeMake(640, 1136);
+    CGSize size6 = CGSizeMake(750, 1334);
+    CGSize size5 = CGSizeMake(750, 1334);
+    CGSize size4 = CGSizeMake(640, 960);
+    BOOL is6PB = CGSizeEqualToSize(currentSize, size6PBig);
+    BOOL is6P  = CGSizeEqualToSize(currentSize, size6P);
+    BOOL is6B  = CGSizeEqualToSize(currentSize, size6Big);
+    BOOL is6   = CGSizeEqualToSize(currentSize, size6);
+    BOOL is5   = CGSizeEqualToSize(currentSize, size5);
+    BOOL is4   = CGSizeEqualToSize(currentSize, size4);
+    if(is6PB && [[self judePhone6PString] isEqualToString:@"6"]){
+        NSLog(@"6p放大模式");
+    }
+    else if(is6P && [[self judePhone6PString] isEqualToString:@"6p"]){
+        NSLog(@"6p标准模式");
+    }
+    else if(is6B && [[self judePhone6PString] isEqualToString:@"5"]){
+        NSLog(@"6放大模式");
+    }
+    else if(is6 && [[self judePhone6PString] isEqualToString:@"6"]){
+        NSLog(@"6标准模式");
+    }
+    else if(is5 && [[self judePhone6PString] isEqualToString:@"5"]){
+        NSLog(@"5标准模式");
+    }
+    else if(is4 && [[self judePhone6PString]isEqualToString:@"4"]){
+        NSLog(@"4标准模式");
+    }
+}
 
 
 @end

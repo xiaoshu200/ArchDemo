@@ -7,7 +7,10 @@
 //
 
 #import <Foundation/Foundation.h>
+#import <UIKit/UIKit.h>
 
 @interface FontTool : NSObject
+
++ (CGFloat)getScaleFontWithOriginFontSize:(CGFloat)originFont;
 
 @end
