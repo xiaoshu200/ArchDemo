@@ -9,7 +9,7 @@
 #import "UIFont+Adapt.h"
 #import "FontTool.h"
 
-@implementation UIFont (ScaleFontCategory)
+@implementation UIFont (Adapt)
 
 - (UIFont *)scalefontWithSize:(CGFloat)fontSize
 {

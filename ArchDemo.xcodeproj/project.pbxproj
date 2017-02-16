@@ -26,6 +26,8 @@
 		245964CC1E554FBB00D3BE1F /* UIFont+Adapt.m in Sources */ = {isa = PBXBuildFile; fileRef = 245964CB1E554FBB00D3BE1F /* UIFont+Adapt.m */; };
 		245964CF1E55501B00D3BE1F /* FontTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 245964CE1E55501B00D3BE1F /* FontTool.m */; };
 		245964D21E5550C500D3BE1F /* DeviceHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 245964D11E5550C500D3BE1F /* DeviceHelper.m */; };
+		245964D51E559E5F00D3BE1F /* DeviceAdapt.m in Sources */ = {isa = PBXBuildFile; fileRef = 245964D41E559E5F00D3BE1F /* DeviceAdapt.m */; };
+		245964D91E55A56D00D3BE1F /* DeviceUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = 245964D81E55A56D00D3BE1F /* DeviceUtil.m */; };
 		24D7BA3E1E4B0E7300664CCB /* ActivityListModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 24D7BA3D1E4B0E7200664CCB /* ActivityListModel.m */; };
 		2CE203618EE138A5DF805850 /* libPods-ArchDemo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 881EDC2EA63F0C4200A37590 /* libPods-ArchDemo.a */; };
 /* End PBXBuildFile section */
@@ -84,6 +86,10 @@
 		245964CE1E55501B00D3BE1F /* FontTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FontTool.m; sourceTree = "<group>"; };
 		245964D01E5550C500D3BE1F /* DeviceHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DeviceHelper.h; sourceTree = "<group>"; };
 		245964D11E5550C500D3BE1F /* DeviceHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DeviceHelper.m; sourceTree = "<group>"; };
+		245964D31E559E5F00D3BE1F /* DeviceAdapt.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DeviceAdapt.h; sourceTree = "<group>"; };
+		245964D41E559E5F00D3BE1F /* DeviceAdapt.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DeviceAdapt.m; sourceTree = "<group>"; };
+		245964D71E55A56D00D3BE1F /* DeviceUtil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DeviceUtil.h; sourceTree = "<group>"; };
+		245964D81E55A56D00D3BE1F /* DeviceUtil.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DeviceUtil.m; sourceTree = "<group>"; };
 		24D7BA3C1E4B0E7200664CCB /* ActivityListModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ActivityListModel.h; sourceTree = "<group>"; };
 		24D7BA3D1E4B0E7200664CCB /* ActivityListModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ActivityListModel.m; sourceTree = "<group>"; };
 		4CCFBF0950A107A70CAD473A /* Pods-ArchDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ArchDemo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ArchDemo/Pods-ArchDemo.debug.xcconfig"; sourceTree = "<group>"; };
@@ -203,6 +209,7 @@
 			isa = PBXGroup;
 			children = (
 				245964B81E554E6900D3BE1F /* Network */,
+				245964D61E55A56300D3BE1F /* UIUtil */,
 				245964BD1E554E6900D3BE1F /* UIAdapt */,
 			);
 			path = Base;
@@ -229,6 +236,8 @@
 				245964CE1E55501B00D3BE1F /* FontTool.m */,
 				245964D01E5550C500D3BE1F /* DeviceHelper.h */,
 				245964D11E5550C500D3BE1F /* DeviceHelper.m */,
+				245964D31E559E5F00D3BE1F /* DeviceAdapt.h */,
+				245964D41E559E5F00D3BE1F /* DeviceAdapt.m */,
 			);
 			path = UIAdapt;
 			sourceTree = "<group>";
@@ -240,6 +249,15 @@
 				245964C01E554E6900D3BE1F /* btn_red_big@3x.png */,
 			);
 			path = Resouces;
+			sourceTree = "<group>";
+		};
+		245964D61E55A56300D3BE1F /* UIUtil */ = {
+			isa = PBXGroup;
+			children = (
+				245964D71E55A56D00D3BE1F /* DeviceUtil.h */,
+				245964D81E55A56D00D3BE1F /* DeviceUtil.m */,
+			);
+			path = UIUtil;
 			sourceTree = "<group>";
 		};
 		FA099ABB827CD1B9E26B569C /* Frameworks */ = {
@@ -438,6 +456,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				244396F21E4AF5520015816E /* ActivityModel.m in Sources */,
+				245964D91E55A56D00D3BE1F /* DeviceUtil.m in Sources */,
+				245964D51E559E5F00D3BE1F /* DeviceAdapt.m in Sources */,
 				244396B81E4958110015816E /* ViewController.m in Sources */,
 				244396EF1E4AF0A00015816E /* QryActivityViewModel.m in Sources */,
 				245964CC1E554FBB00D3BE1F /* UIFont+Adapt.m in Sources */,

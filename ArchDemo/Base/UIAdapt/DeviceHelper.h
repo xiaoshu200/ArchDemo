@@ -44,26 +44,5 @@ enum {
 
 // 当前分辨率
 + (UIDeviceResolution) currentResolution;
-// 当前设备分辨率
-+ (NSString *)getCurrentDeviceModel;
-// 获取设备信息
-+ (void)getDeviceInfo;
-// 获取设备电量电量
-+(CGFloat)getBatteryQuantity;
-// 设备总内存
-+(NSString *)getTotalMemorySize;
-// 设备可用内存
-+(NSString *)getAvailableMemorySize;
-// 磁盘总大小
-+ (NSString *)getTotalDiskSize;
-
-// 可用磁盘大小
-+ (NSString *)getAvailableDiskSize;
-//宿主APP版本号
-+ (NSString *)getAppVersion;
-// 获取UUID
-+ (NSString *)getUDID;
-
-
 
 @end
