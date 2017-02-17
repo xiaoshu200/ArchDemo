@@ -49,8 +49,10 @@
 - (void)scrollViewDidScroll:(UIScrollView *)scrollView{
     //超过第四屏就模态到APP主页
     if (scrollView.contentOffset.x>self.introdctPageScrollView.frame.size.width*3) {
+//        QryViewController *mainVc = [[QryViewController alloc] init];
+//        [UIApplication sharedApplication].delegate.window.rootViewController = mainVc;
         QryViewController *qryVc = [[QryViewController alloc] init];
-        [self presentViewController:qryVc animated:YES completion:^{
+        [self presentViewController:qryVc animated:NO completion:^{
             
         }];
     }
