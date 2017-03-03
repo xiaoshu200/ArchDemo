@@ -9,7 +9,6 @@
 #import "AppDelegate.h"
 #import <CocoaLumberjack/CocoaLumberjack.h>
 #import "QryViewController.h"
-#import "IntrodctionViewController.h"
 #import "YTKNetworkConfig.h"
 #import "TabbarManager.h"
 

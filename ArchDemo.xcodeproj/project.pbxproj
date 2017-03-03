@@ -21,6 +21,11 @@
 		245964D21E5550C500D3BE1F /* DeviceHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 245964D11E5550C500D3BE1F /* DeviceHelper.m */; };
 		245964D51E559E5F00D3BE1F /* DeviceAdapt.m in Sources */ = {isa = PBXBuildFile; fileRef = 245964D41E559E5F00D3BE1F /* DeviceAdapt.m */; };
 		245964D91E55A56D00D3BE1F /* DeviceUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = 245964D81E55A56D00D3BE1F /* DeviceUtil.m */; };
+		24A774071E696F3D00297E35 /* TabbarManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 24A774061E696F3D00297E35 /* TabbarManager.m */; };
+		24A774131E696F5B00297E35 /* DiscoverVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 24A7740A1E696F5B00297E35 /* DiscoverVC.m */; };
+		24A774141E696F5B00297E35 /* DiscoveryDetailVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 24A7740C1E696F5B00297E35 /* DiscoveryDetailVC.m */; };
+		24A774151E696F5B00297E35 /* HomeVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 24A7740F1E696F5B00297E35 /* HomeVC.m */; };
+		24A774161E696F5B00297E35 /* ProfileVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 24A774121E696F5B00297E35 /* ProfileVC.m */; };
 		2CE203618EE138A5DF805850 /* libPods-ArchDemo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 881EDC2EA63F0C4200A37590 /* libPods-ArchDemo.a */; };
 		CC7D57091E568ABA00A5B31F /* ActivityListModel.m in Sources */ = {isa = PBXBuildFile; fileRef = CC7D56FD1E568ABA00A5B31F /* ActivityListModel.m */; };
 		CC7D570A1E568ABA00A5B31F /* ActivityModel.m in Sources */ = {isa = PBXBuildFile; fileRef = CC7D56FF1E568ABA00A5B31F /* ActivityModel.m */; };
@@ -84,6 +89,16 @@
 		245964D41E559E5F00D3BE1F /* DeviceAdapt.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DeviceAdapt.m; sourceTree = "<group>"; };
 		245964D71E55A56D00D3BE1F /* DeviceUtil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DeviceUtil.h; sourceTree = "<group>"; };
 		245964D81E55A56D00D3BE1F /* DeviceUtil.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DeviceUtil.m; sourceTree = "<group>"; };
+		24A774051E696F3D00297E35 /* TabbarManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TabbarManager.h; path = ArchDemo/BusinessCom/Tabbar/TabbarManager.h; sourceTree = SOURCE_ROOT; };
+		24A774061E696F3D00297E35 /* TabbarManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TabbarManager.m; path = ArchDemo/BusinessCom/Tabbar/TabbarManager.m; sourceTree = SOURCE_ROOT; };
+		24A774091E696F5B00297E35 /* DiscoverVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DiscoverVC.h; sourceTree = "<group>"; };
+		24A7740A1E696F5B00297E35 /* DiscoverVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DiscoverVC.m; sourceTree = "<group>"; };
+		24A7740B1E696F5B00297E35 /* DiscoveryDetailVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DiscoveryDetailVC.h; sourceTree = "<group>"; };
+		24A7740C1E696F5B00297E35 /* DiscoveryDetailVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DiscoveryDetailVC.m; sourceTree = "<group>"; };
+		24A7740E1E696F5B00297E35 /* HomeVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HomeVC.h; sourceTree = "<group>"; };
+		24A7740F1E696F5B00297E35 /* HomeVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HomeVC.m; sourceTree = "<group>"; };
+		24A774111E696F5B00297E35 /* ProfileVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ProfileVC.h; sourceTree = "<group>"; };
+		24A774121E696F5B00297E35 /* ProfileVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ProfileVC.m; sourceTree = "<group>"; };
 		4CCFBF0950A107A70CAD473A /* Pods-ArchDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ArchDemo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ArchDemo/Pods-ArchDemo.debug.xcconfig"; sourceTree = "<group>"; };
 		881EDC2EA63F0C4200A37590 /* libPods-ArchDemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ArchDemo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		CC7D56FC1E568ABA00A5B31F /* ActivityListModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ActivityListModel.h; sourceTree = "<group>"; };
@@ -266,9 +281,41 @@
 			path = UIUtil;
 			sourceTree = "<group>";
 		};
+		24A774081E696F5B00297E35 /* Discover */ = {
+			isa = PBXGroup;
+			children = (
+				24A774091E696F5B00297E35 /* DiscoverVC.h */,
+				24A7740A1E696F5B00297E35 /* DiscoverVC.m */,
+				24A7740B1E696F5B00297E35 /* DiscoveryDetailVC.h */,
+				24A7740C1E696F5B00297E35 /* DiscoveryDetailVC.m */,
+			);
+			path = Discover;
+			sourceTree = "<group>";
+		};
+		24A7740D1E696F5B00297E35 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				24A7740E1E696F5B00297E35 /* HomeVC.h */,
+				24A7740F1E696F5B00297E35 /* HomeVC.m */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		24A774101E696F5B00297E35 /* Profile */ = {
+			isa = PBXGroup;
+			children = (
+				24A774111E696F5B00297E35 /* ProfileVC.h */,
+				24A774121E696F5B00297E35 /* ProfileVC.m */,
+			);
+			path = Profile;
+			sourceTree = "<group>";
+		};
 		CC7D56F11E568ABA00A5B31F /* BusinessCom */ = {
 			isa = PBXGroup;
 			children = (
+				24A774081E696F5B00297E35 /* Discover */,
+				24A7740D1E696F5B00297E35 /* Home */,
+				24A774101E696F5B00297E35 /* Profile */,
 				CC7D56F81E568ABA00A5B31F /* MainPage */,
 				CC7D580F1E5ECA5000A5B31F /* Life */,
 				CC7D58891E5FCD4800A5B31F /* Finance */,
@@ -394,6 +441,8 @@
 		CC7D581E1E5EDC7D00A5B31F /* TabBar */ = {
 			isa = PBXGroup;
 			children = (
+				24A774051E696F3D00297E35 /* TabbarManager.h */,
+				24A774061E696F3D00297E35 /* TabbarManager.m */,
 				CC7D581F1E5EDC7D00A5B31F /* View */,
 			);
 			path = TabBar;
@@ -643,6 +692,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				24A774071E696F3D00297E35 /* TabbarManager.m in Sources */,
 				CC7D570B1E568ABA00A5B31F /* QryViewController.m in Sources */,
 				245964D91E55A56D00D3BE1F /* DeviceUtil.m in Sources */,
 				245964D51E559E5F00D3BE1F /* DeviceAdapt.m in Sources */,
@@ -659,12 +709,16 @@
 				245964CF1E55501B00D3BE1F /* FontTool.m in Sources */,
 				244396B21E4958110015816E /* main.m in Sources */,
 				245964C21E554E6900D3BE1F /* ArchBaseViewModel.m in Sources */,
+				24A774151E696F5B00297E35 /* HomeVC.m in Sources */,
 				CC7D58941E60190200A5B31F /* UIColor+YM.m in Sources */,
+				24A774141E696F5B00297E35 /* DiscoveryDetailVC.m in Sources */,
 				CC7D570A1E568ABA00A5B31F /* ActivityModel.m in Sources */,
 				CC7D581D1E5ECA8A00A5B31F /* NewsViewController.m in Sources */,
+				24A774161E696F5B00297E35 /* ProfileVC.m in Sources */,
 				CC7D58251E5EE44100A5B31F /* YMTabBarController.m in Sources */,
 				CC7D58171E5ECA7000A5B31F /* LifeViewController.m in Sources */,
 				245964C11E554E6900D3BE1F /* ArchBaseRequest.m in Sources */,
+				24A774131E696F5B00297E35 /* DiscoverVC.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
