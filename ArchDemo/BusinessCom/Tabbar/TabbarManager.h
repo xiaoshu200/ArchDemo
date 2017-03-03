@@ -10,4 +10,7 @@
 
 @interface TabbarManager : NSObject
 
+//创建tabbar
++ (void)createTabbar;
+
 @end

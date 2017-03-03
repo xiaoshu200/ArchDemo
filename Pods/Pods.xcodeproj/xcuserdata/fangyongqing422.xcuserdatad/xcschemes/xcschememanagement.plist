@@ -14,12 +14,37 @@
 			<key>isShown</key>
 			<false/>
 		</dict>
+		<key>FDFullscreenPopGesture.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>LCTabBarController.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>MBProgressHUD.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>MJRefresh.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
 		<key>Masonry.xcscheme</key>
 		<dict>
 			<key>isShown</key>
 			<false/>
 		</dict>
 		<key>Pods-ArchDemo.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>SDWebImage.xcscheme</key>
 		<dict>
 			<key>isShown</key>
 			<false/>
@@ -37,12 +62,7 @@
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
-		<key>02373AB98FC1B2D710452ED174D19EE3</key>
-		<dict>
-			<key>primary</key>
-			<true/>
-		</dict>
-		<key>17F1FD17036AD02F1D424514F30FB719</key>
+		<key>04CF549EBEEE7BC87AEAE35397184D94</key>
 		<dict>
 			<key>primary</key>
 			<true/>
@@ -52,7 +72,27 @@
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>4E3BAEAE6388CA8452BAF85344797465</key>
+		<key>35D212D6707EB4E8BC6C57F00C2BA767</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>586F2DFA9BDCC6675C2546793A69E5CC</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>60EBE49E9B7F0BED8C391AEDE5726076</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>661F9E760867620322170D96AC434E3F</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>917A154E9869E50A6FB9BF4C6102EA24</key>
 		<dict>
 			<key>primary</key>
 			<true/>
@@ -63,6 +103,16 @@
 			<true/>
 		</dict>
 		<key>9E033EDB5EC0819481B0546434FA577B</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>B25A0A9A156454DF741DFDDD39FC4564</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>EE366E1E6962F82E6AEC8AE66FA66CBF</key>
 		<dict>
 			<key>primary</key>
 			<true/>

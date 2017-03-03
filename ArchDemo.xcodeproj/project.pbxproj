@@ -13,6 +13,7 @@
 		244396C01E4958110015816E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 244396BE1E4958110015816E /* LaunchScreen.storyboard */; };
 		244396CB1E4958110015816E /* ArchDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 244396CA1E4958110015816E /* ArchDemoTests.m */; };
 		244396D61E4958110015816E /* ArchDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 244396D51E4958110015816E /* ArchDemoUITests.m */; };
+		2446EE091E6948B50008A5FB /* DiscoverVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 2446EE081E6948B50008A5FB /* DiscoverVC.m */; };
 		245964C11E554E6900D3BE1F /* ArchBaseRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 245964BA1E554E6900D3BE1F /* ArchBaseRequest.m */; };
 		245964C21E554E6900D3BE1F /* ArchBaseViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 245964BC1E554E6900D3BE1F /* ArchBaseViewModel.m */; };
 		245964C31E554E6900D3BE1F /* btn_red_big@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 245964BF1E554E6900D3BE1F /* btn_red_big@2x.png */; };
@@ -23,6 +24,10 @@
 		245964D21E5550C500D3BE1F /* DeviceHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 245964D11E5550C500D3BE1F /* DeviceHelper.m */; };
 		245964D51E559E5F00D3BE1F /* DeviceAdapt.m in Sources */ = {isa = PBXBuildFile; fileRef = 245964D41E559E5F00D3BE1F /* DeviceAdapt.m */; };
 		245964D91E55A56D00D3BE1F /* DeviceUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = 245964D81E55A56D00D3BE1F /* DeviceUtil.m */; };
+		24A773FA1E69492400297E35 /* HomeVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 24A773F91E69492400297E35 /* HomeVC.m */; };
+		24A773FD1E69493200297E35 /* ProfileVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 24A773FC1E69493200297E35 /* ProfileVC.m */; };
+		24A774011E694AF000297E35 /* TabbarManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 24A774001E694AF000297E35 /* TabbarManager.m */; };
+		24A774041E6956AE00297E35 /* DiscoveryDetailVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 24A774031E6956AE00297E35 /* DiscoveryDetailVC.m */; };
 		2CE203618EE138A5DF805850 /* libPods-ArchDemo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 881EDC2EA63F0C4200A37590 /* libPods-ArchDemo.a */; };
 		CC7D57081E568ABA00A5B31F /* IntrodctionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CC7D56F61E568ABA00A5B31F /* IntrodctionViewController.m */; };
 		CC7D57091E568ABA00A5B31F /* ActivityListModel.m in Sources */ = {isa = PBXBuildFile; fileRef = CC7D56FD1E568ABA00A5B31F /* ActivityListModel.m */; };
@@ -82,6 +87,8 @@
 		244396D11E4958110015816E /* ArchDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ArchDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		244396D51E4958110015816E /* ArchDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ArchDemoUITests.m; sourceTree = "<group>"; };
 		244396D71E4958110015816E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2446EE071E6948B50008A5FB /* DiscoverVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DiscoverVC.h; sourceTree = "<group>"; };
+		2446EE081E6948B50008A5FB /* DiscoverVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DiscoverVC.m; sourceTree = "<group>"; };
 		245964B91E554E6900D3BE1F /* ArchBaseRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ArchBaseRequest.h; sourceTree = "<group>"; };
 		245964BA1E554E6900D3BE1F /* ArchBaseRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ArchBaseRequest.m; sourceTree = "<group>"; };
 		245964BB1E554E6900D3BE1F /* ArchBaseViewModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ArchBaseViewModel.h; sourceTree = "<group>"; };
@@ -99,6 +106,14 @@
 		245964D41E559E5F00D3BE1F /* DeviceAdapt.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DeviceAdapt.m; sourceTree = "<group>"; };
 		245964D71E55A56D00D3BE1F /* DeviceUtil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DeviceUtil.h; sourceTree = "<group>"; };
 		245964D81E55A56D00D3BE1F /* DeviceUtil.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DeviceUtil.m; sourceTree = "<group>"; };
+		24A773F81E69492400297E35 /* HomeVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HomeVC.h; sourceTree = "<group>"; };
+		24A773F91E69492400297E35 /* HomeVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HomeVC.m; sourceTree = "<group>"; };
+		24A773FB1E69493200297E35 /* ProfileVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ProfileVC.h; sourceTree = "<group>"; };
+		24A773FC1E69493200297E35 /* ProfileVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ProfileVC.m; sourceTree = "<group>"; };
+		24A773FF1E694AF000297E35 /* TabbarManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TabbarManager.h; sourceTree = "<group>"; };
+		24A774001E694AF000297E35 /* TabbarManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TabbarManager.m; sourceTree = "<group>"; };
+		24A774021E6956AE00297E35 /* DiscoveryDetailVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DiscoveryDetailVC.h; sourceTree = "<group>"; };
+		24A774031E6956AE00297E35 /* DiscoveryDetailVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DiscoveryDetailVC.m; sourceTree = "<group>"; };
 		4CCFBF0950A107A70CAD473A /* Pods-ArchDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ArchDemo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ArchDemo/Pods-ArchDemo.debug.xcconfig"; sourceTree = "<group>"; };
 		881EDC2EA63F0C4200A37590 /* libPods-ArchDemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ArchDemo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		CC7D56F51E568ABA00A5B31F /* IntrodctionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IntrodctionViewController.h; sourceTree = "<group>"; };
@@ -232,6 +247,35 @@
 			path = ArchDemoUITests;
 			sourceTree = "<group>";
 		};
+		2446EE041E69488E0008A5FB /* Discover */ = {
+			isa = PBXGroup;
+			children = (
+				2446EE071E6948B50008A5FB /* DiscoverVC.h */,
+				2446EE081E6948B50008A5FB /* DiscoverVC.m */,
+				24A774021E6956AE00297E35 /* DiscoveryDetailVC.h */,
+				24A774031E6956AE00297E35 /* DiscoveryDetailVC.m */,
+			);
+			path = Discover;
+			sourceTree = "<group>";
+		};
+		2446EE051E69488E0008A5FB /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				24A773F81E69492400297E35 /* HomeVC.h */,
+				24A773F91E69492400297E35 /* HomeVC.m */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		2446EE061E69488E0008A5FB /* Profile */ = {
+			isa = PBXGroup;
+			children = (
+				24A773FB1E69493200297E35 /* ProfileVC.h */,
+				24A773FC1E69493200297E35 /* ProfileVC.m */,
+			);
+			path = Profile;
+			sourceTree = "<group>";
+		};
 		245964B71E554E6900D3BE1F /* Base */ = {
 			isa = PBXGroup;
 			children = (
@@ -288,11 +332,23 @@
 			path = UIUtil;
 			sourceTree = "<group>";
 		};
+		24A773FE1E694AD100297E35 /* Tabbar */ = {
+			isa = PBXGroup;
+			children = (
+				24A773FF1E694AF000297E35 /* TabbarManager.h */,
+				24A774001E694AF000297E35 /* TabbarManager.m */,
+			);
+			path = Tabbar;
+			sourceTree = "<group>";
+		};
 		CC7D56F11E568ABA00A5B31F /* BusinessCom */ = {
 			isa = PBXGroup;
 			children = (
+				24A773FE1E694AD100297E35 /* Tabbar */,
+				2446EE041E69488E0008A5FB /* Discover */,
+				2446EE051E69488E0008A5FB /* Home */,
+				2446EE061E69488E0008A5FB /* Profile */,
 				CC7D56F21E568ABA00A5B31F /* IntroductoryPage */,
-				CC7D56F81E568ABA00A5B31F /* MainPage */,
 				CC7D56FA1E568ABA00A5B31F /* QryActivity */,
 			);
 			path = BusinessCom;
@@ -329,21 +385,6 @@
 			children = (
 			);
 			path = ViewModel;
-			sourceTree = "<group>";
-		};
-		CC7D56F81E568ABA00A5B31F /* MainPage */ = {
-			isa = PBXGroup;
-			children = (
-				CC7D56F91E568ABA00A5B31F /* View */,
-			);
-			path = MainPage;
-			sourceTree = "<group>";
-		};
-		CC7D56F91E568ABA00A5B31F /* View */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = View;
 			sourceTree = "<group>";
 		};
 		CC7D56FA1E568ABA00A5B31F /* QryActivity */ = {
@@ -636,6 +677,7 @@
 				245964D91E55A56D00D3BE1F /* DeviceUtil.m in Sources */,
 				245964D51E559E5F00D3BE1F /* DeviceAdapt.m in Sources */,
 				CC7D570D1E568ABA00A5B31F /* QryActivityViewModel.m in Sources */,
+				24A773FD1E69493200297E35 /* ProfileVC.m in Sources */,
 				245964CC1E554FBB00D3BE1F /* UIFont+Adapt.m in Sources */,
 				CC7D570C1E568ABA00A5B31F /* QryActivityRequest.m in Sources */,
 				244396B51E4958110015816E /* AppDelegate.m in Sources */,
@@ -644,9 +686,13 @@
 				245964CF1E55501B00D3BE1F /* FontTool.m in Sources */,
 				244396B21E4958110015816E /* main.m in Sources */,
 				245964C21E554E6900D3BE1F /* ArchBaseViewModel.m in Sources */,
+				24A774011E694AF000297E35 /* TabbarManager.m in Sources */,
 				CC7D570A1E568ABA00A5B31F /* ActivityModel.m in Sources */,
+				24A773FA1E69492400297E35 /* HomeVC.m in Sources */,
 				CC7D57081E568ABA00A5B31F /* IntrodctionViewController.m in Sources */,
 				245964C11E554E6900D3BE1F /* ArchBaseRequest.m in Sources */,
+				24A774041E6956AE00297E35 /* DiscoveryDetailVC.m in Sources */,
+				2446EE091E6948B50008A5FB /* DiscoverVC.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

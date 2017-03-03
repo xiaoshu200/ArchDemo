@@ -31,6 +31,8 @@
     [self.view addSubview:self.usernameTF];
     [self.view addSubview:self.passwordTF];
     [self.view addSubview:self.loginBtn];
+    
+    [self updateConstraints];
 }
 
 - (void)didReceiveMemoryWarning {
@@ -45,8 +47,7 @@
 
 #pragma mark -  constraints
 
-- (void)updateViewConstraints{
-    [super updateViewConstraints];
+- (void)updateConstraints{
     
     //布局
     [self.usernameTF mas_makeConstraints:^(MASConstraintMaker *make) {

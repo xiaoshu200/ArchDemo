@@ -11,6 +11,7 @@
 #import "QryViewController.h"
 #import "IntrodctionViewController.h"
 #import "YTKNetworkConfig.h"
+#import "TabbarManager.h"
 
 @interface AppDelegate ()
 
@@ -23,7 +24,9 @@
     // Override point for customization after application launch.
     self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
     self.window.backgroundColor = [UIColor whiteColor];
-
+    
+    [self.window makeKeyAndVisible];
+    
     [DDLog addLogger:[DDASLLogger sharedInstance]];
     [DDLog addLogger:[DDTTYLogger sharedInstance]];
     DDFileLogger *fileLogger = [[DDFileLogger alloc] init];
@@ -31,19 +34,20 @@
     fileLogger.logFileManager.maximumNumberOfLogFiles = 7;
     [DDLog addLogger:fileLogger];
     
-    //引导页处理
-    BOOL isShowIntrodctryPage = YES;
-    if (isShowIntrodctryPage) {
-        IntrodctionViewController *introductVc = [[IntrodctionViewController alloc] init];
-        self.window.rootViewController = introductVc;
-    }else{
-        QryViewController *mainVc = [[QryViewController alloc] init];
-        self.window.rootViewController = mainVc;
-    }
-    [self.window makeKeyAndVisible];
+//    //引导页处理
+//    BOOL isShowIntrodctryPage = YES;
+//    if (isShowIntrodctryPage) {
+//        IntrodctionViewController *introductVc = [[IntrodctionViewController alloc] init];
+//        self.window.rootViewController = introductVc;
+//    }else{
+//        QryViewController *mainVc = [[QryViewController alloc] init];
+//        self.window.rootViewController = mainVc;
+//    }
 
     YTKNetworkConfig *config = [YTKNetworkConfig sharedConfig];
     config.debugLogEnabled = YES;
+    
+    [TabbarManager createTabbar];
     
     return YES;
 }
@@ -84,5 +88,17 @@
     // Called when the application is about to terminate. Save data if appropriate. See also applicationDidEnterBackground:.
 }
 
+#pragma mark - public methods
+
+/**
+ *  获取当前对象实例
+ *
+ *  @return 返回 AppDelegate对象
+ */
++ (AppDelegate *)sharedInstance
+{
+    AppDelegate *deleage = (AppDelegate *)[UIApplication sharedApplication].delegate;
+    return deleage;
+}
 
 @end
