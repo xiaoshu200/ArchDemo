@@ -8,8 +8,7 @@
 
 #import "GuidePageViewController.h"
 #import <Masonry.h>
-#import "QryViewController.h"
-#import "YMTabBarController.h"
+#import "TabbarManager.h"
 
 @interface GuidePageViewController ()<UIScrollViewDelegate>
 @property(nonatomic, strong)UIScrollView *introdctPageScrollView;
@@ -54,13 +53,9 @@
 
 #pragma mark - UIScrollViewdelegate
 - (void)scrollViewDidScroll:(UIScrollView *)scrollView{
-    //超过第四屏就模态到APP主页
+    //超过第四屏就创建TabBar到APP主页
     if (scrollView.contentOffset.x>self.introdctPageScrollView.frame.size.width*3) {
-        
-        YMTabBarController *TabBarVc = [[YMTabBarController alloc] init];
-        [self presentViewController:TabBarVc animated:NO completion:^{
-            
-        }];
+        [TabbarManager createTabbar];
     }
 }
 

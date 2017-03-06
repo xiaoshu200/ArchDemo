@@ -8,9 +8,8 @@
 
 #import "AppDelegate.h"
 #import <CocoaLumberjack/CocoaLumberjack.h>
-#import "QryViewController.h"
+#import "GuidePageManager.h"
 #import "YTKNetworkConfig.h"
-#import "TabbarManager.h"
 
 @interface AppDelegate ()
 
@@ -33,34 +32,14 @@
     fileLogger.logFileManager.maximumNumberOfLogFiles = 7;
     [DDLog addLogger:fileLogger];
     
-//    //引导页处理
-//    BOOL isShowIntrodctryPage = YES;
-//    if (isShowIntrodctryPage) {
-//        IntrodctionViewController *introductVc = [[IntrodctionViewController alloc] init];
-//        self.window.rootViewController = introductVc;
-//    }else{
-//        QryViewController *mainVc = [[QryViewController alloc] init];
-//        self.window.rootViewController = mainVc;
-//    }
-
     YTKNetworkConfig *config = [YTKNetworkConfig sharedConfig];
     config.debugLogEnabled = YES;
     
-    [TabbarManager createTabbar];
+    [GuidePageManager createGuidePage];
     
     return YES;
 }
 
--(void)createMainPage{
-    UITabBarController *tabBar = [[UITabBarController alloc] init];
-    QryViewController *qryVc = [[QryViewController alloc] init];
-    
-    UIViewController *messageVc = [UIViewController new];
-    messageVc.tabBarItem.title = @"消息";
-    
-    tabBar.viewControllers = @[qryVc];
-    self.window.rootViewController = tabBar;
-}
 - (void)applicationWillResignActive:(UIApplication *)application {
     // Sent when the application is about to move from active to inactive state. This can occur for certain types of temporary interruptions (such as an incoming phone call or SMS message) or when the user quits the application and it begins the transition to the background state.
     // Use this method to pause ongoing tasks, disable timers, and invalidate graphics rendering callbacks. Games should use this method to pause the game.
