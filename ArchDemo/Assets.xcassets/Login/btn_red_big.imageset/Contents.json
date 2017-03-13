@@ -6,10 +6,23 @@
     },
     {
       "idiom" : "universal",
-      "filename" : "btn_red_big@2x.png",
       "scale" : "2x"
     },
     {
+      "resizing" : {
+        "mode" : "9-part",
+        "center" : {
+          "mode" : "tile",
+          "width" : 951,
+          "height" : 120
+        },
+        "cap-insets" : {
+          "bottom" : 7,
+          "top" : 6,
+          "right" : 5,
+          "left" : 7
+        }
+      },
       "idiom" : "universal",
       "filename" : "btn_red_big@3x.png",
       "scale" : "3x"
