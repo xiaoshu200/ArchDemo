@@ -9,11 +9,11 @@
 #import "ArchBaseRequest.h"
 
 #define PROTOCOL_URL          @"http://Api.kai-men.cn"        //生产环境
-
+#define DOUBAN_URL            @"https://api.douban.com"
 @implementation ArchBaseRequest
 
 - (NSString *)baseUrl {
-    return PROTOCOL_URL;
+    return DOUBAN_URL;
 }
 
 #pragma 接收穿过来的block
@@ -30,6 +30,9 @@
 {
     [self startWithCompletionBlockWithSuccess:^(YTKBaseRequest *request) {
         // 你可以直接在这里使用 self
+        NSLog(@"requestUrl====%@",request.requestUrl);
+        NSLog(@"requestArgument====%@",request.requestArgument);
+
         NSDictionary *json = [request responseJSONObject];
         
         if (json && [json isKindOfClass:[NSDictionary class]]) {

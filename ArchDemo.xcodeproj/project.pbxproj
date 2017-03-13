@@ -28,6 +28,8 @@
 		24A774161E696F5B00297E35 /* ProfileVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 24A774121E696F5B00297E35 /* ProfileVC.m */; };
 		2CE203618EE138A5DF805850 /* libPods-ArchDemo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 881EDC2EA63F0C4200A37590 /* libPods-ArchDemo.a */; };
 		CC3AAE411E6D8F7400C5EB3A /* GuidePageManager.m in Sources */ = {isa = PBXBuildFile; fileRef = CC3AAE401E6D8F7400C5EB3A /* GuidePageManager.m */; };
+		CC7A68141E724D9E00A7C3E8 /* MovieListRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = CC7A68131E724D9E00A7C3E8 /* MovieListRequest.m */; };
+		CC7A68171E724DCF00A7C3E8 /* MovieListViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = CC7A68161E724DCF00A7C3E8 /* MovieListViewModel.m */; };
 		CC7D57091E568ABA00A5B31F /* ActivityListModel.m in Sources */ = {isa = PBXBuildFile; fileRef = CC7D56FD1E568ABA00A5B31F /* ActivityListModel.m */; };
 		CC7D570A1E568ABA00A5B31F /* ActivityModel.m in Sources */ = {isa = PBXBuildFile; fileRef = CC7D56FF1E568ABA00A5B31F /* ActivityModel.m */; };
 		CC7D570B1E568ABA00A5B31F /* QryViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CC7D57021E568ABA00A5B31F /* QryViewController.m */; };
@@ -98,6 +100,10 @@
 		881EDC2EA63F0C4200A37590 /* libPods-ArchDemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ArchDemo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		CC3AAE3F1E6D8F7400C5EB3A /* GuidePageManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GuidePageManager.h; sourceTree = "<group>"; };
 		CC3AAE401E6D8F7400C5EB3A /* GuidePageManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GuidePageManager.m; sourceTree = "<group>"; };
+		CC7A68121E724D9E00A7C3E8 /* MovieListRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MovieListRequest.h; sourceTree = "<group>"; };
+		CC7A68131E724D9E00A7C3E8 /* MovieListRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MovieListRequest.m; sourceTree = "<group>"; };
+		CC7A68151E724DCF00A7C3E8 /* MovieListViewModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MovieListViewModel.h; sourceTree = "<group>"; };
+		CC7A68161E724DCF00A7C3E8 /* MovieListViewModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MovieListViewModel.m; sourceTree = "<group>"; };
 		CC7D56FC1E568ABA00A5B31F /* ActivityListModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ActivityListModel.h; sourceTree = "<group>"; };
 		CC7D56FD1E568ABA00A5B31F /* ActivityListModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ActivityListModel.m; sourceTree = "<group>"; };
 		CC7D56FE1E568ABA00A5B31F /* ActivityModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ActivityModel.h; sourceTree = "<group>"; };
@@ -280,6 +286,7 @@
 		24A7740D1E696F5B00297E35 /* Home */ = {
 			isa = PBXGroup;
 			children = (
+				CC7A680B1E724C1000A7C3E8 /* ViewModel */,
 				24A7740E1E696F5B00297E35 /* HomeVC.h */,
 				24A7740F1E696F5B00297E35 /* HomeVC.m */,
 			);
@@ -293,6 +300,17 @@
 				24A774121E696F5B00297E35 /* ProfileVC.m */,
 			);
 			path = Profile;
+			sourceTree = "<group>";
+		};
+		CC7A680B1E724C1000A7C3E8 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				CC7A68121E724D9E00A7C3E8 /* MovieListRequest.h */,
+				CC7A68131E724D9E00A7C3E8 /* MovieListRequest.m */,
+				CC7A68151E724DCF00A7C3E8 /* MovieListViewModel.h */,
+				CC7A68161E724DCF00A7C3E8 /* MovieListViewModel.m */,
+			);
+			name = ViewModel;
 			sourceTree = "<group>";
 		};
 		CC7D56F11E568ABA00A5B31F /* BusinessCom */ = {
@@ -591,6 +609,7 @@
 				245964D21E5550C500D3BE1F /* DeviceHelper.m in Sources */,
 				CC7D57091E568ABA00A5B31F /* ActivityListModel.m in Sources */,
 				245964CF1E55501B00D3BE1F /* FontTool.m in Sources */,
+				CC7A68141E724D9E00A7C3E8 /* MovieListRequest.m in Sources */,
 				CC3AAE411E6D8F7400C5EB3A /* GuidePageManager.m in Sources */,
 				244396B21E4958110015816E /* main.m in Sources */,
 				245964C21E554E6900D3BE1F /* ArchBaseViewModel.m in Sources */,
@@ -601,6 +620,7 @@
 				24A774161E696F5B00297E35 /* ProfileVC.m in Sources */,
 				245964C11E554E6900D3BE1F /* ArchBaseRequest.m in Sources */,
 				24A774131E696F5B00297E35 /* DiscoverVC.m in Sources */,
+				CC7A68171E724DCF00A7C3E8 /* MovieListViewModel.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

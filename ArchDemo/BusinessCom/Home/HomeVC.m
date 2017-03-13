@@ -7,6 +7,7 @@
 //
 
 #import "HomeVC.h"
+#import "MovieListViewModel.h"
 
 @interface HomeVC ()
 
@@ -19,6 +20,17 @@
     // Do any additional setup after loading the view.
     
     self.title = @"主页";
+    MovieListViewModel *movieViewModel = [[MovieListViewModel alloc] init];
+    [movieViewModel setBlockWithReturnBlock:^(id returnValue) {
+        NSLog(@"returnValue ====  %@",returnValue);
+        
+    } withErrorBlock:^(NSInteger errorCode) {
+        
+    } withFailureBlock:^(NSString *msg) {
+        
+    }];
+    [movieViewModel requestMovieList];
+    
 }
 
 - (void)didReceiveMemoryWarning {
