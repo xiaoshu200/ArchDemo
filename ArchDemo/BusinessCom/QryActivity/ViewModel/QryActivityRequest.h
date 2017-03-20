@@ -7,9 +7,9 @@
 //
 
 #import <Foundation/Foundation.h>
-#import "ArchBaseRequest.h"
+#import "HTBaseRequest.h"
 
-@interface QryActivityRequest : ArchBaseRequest
+@interface QryActivityRequest : HTBaseRequest
 
 - (id)initWithUsername:(NSString *)username password:(NSString *)password;
 
