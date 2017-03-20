@@ -12,7 +12,7 @@
 
 
 - (NSString *)requestUrl {
-    return @"/v2/movie/subject/1764796";
+    return @"/v2/movie/top250";
 }
 
 - (YTKRequestMethod)requestMethod {
@@ -21,6 +21,8 @@
 
 //- (id)requestArgument {
 //    return @{
+//             @"start":0,
+//             @"count":10
 //             };
 //}
 

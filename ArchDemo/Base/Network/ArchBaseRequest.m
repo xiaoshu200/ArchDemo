@@ -34,19 +34,23 @@
         NSLog(@"requestArgument====%@",request.requestArgument);
 
         NSDictionary *json = [request responseJSONObject];
-        
-        if (json && [json isKindOfClass:[NSDictionary class]]) {
-            NSInteger ret = [json[@"ret"] integerValue];
-            if (ret == 0) {
-                self.returnBlock(json[@"data"]);
-            } else {
-                self.errorBlock(ret);
+        if ([request.baseUrl isEqualToString:PROTOCOL_URL]) {
+            if (json && [json isKindOfClass:[NSDictionary class]]) {
+                NSInteger ret = [json[@"ret"] integerValue];
+                if (ret == 0) {
+                    self.returnBlock(json[@"data"]);
+                } else {
+                    self.errorBlock(ret);
+                }
             }
+            else
+            {
+                self.failureBlock(@"response nil");
+            }
+        }else{
+            self.returnBlock(json);
         }
-        else
-        {
-            self.failureBlock(@"response nil");
-        }
+       
     } failure:^(YTKBaseRequest *request) {
         // 你可以直接在这里使用 self
         NSLog(@"network error");

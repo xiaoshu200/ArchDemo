@@ -27,6 +27,7 @@
 		24A774151E696F5B00297E35 /* HomeVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 24A7740F1E696F5B00297E35 /* HomeVC.m */; };
 		24A774161E696F5B00297E35 /* ProfileVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 24A774121E696F5B00297E35 /* ProfileVC.m */; };
 		2CE203618EE138A5DF805850 /* libPods-ArchDemo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 881EDC2EA63F0C4200A37590 /* libPods-ArchDemo.a */; };
+		CC2684C71E7D01D700B0A221 /* MovieModel.m in Sources */ = {isa = PBXBuildFile; fileRef = CC2684C61E7D01D700B0A221 /* MovieModel.m */; };
 		CC3AAE411E6D8F7400C5EB3A /* GuidePageManager.m in Sources */ = {isa = PBXBuildFile; fileRef = CC3AAE401E6D8F7400C5EB3A /* GuidePageManager.m */; };
 		CC7A68141E724D9E00A7C3E8 /* MovieListRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = CC7A68131E724D9E00A7C3E8 /* MovieListRequest.m */; };
 		CC7A68171E724DCF00A7C3E8 /* MovieListViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = CC7A68161E724DCF00A7C3E8 /* MovieListViewModel.m */; };
@@ -98,6 +99,8 @@
 		24A774121E696F5B00297E35 /* ProfileVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ProfileVC.m; sourceTree = "<group>"; };
 		4CCFBF0950A107A70CAD473A /* Pods-ArchDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ArchDemo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ArchDemo/Pods-ArchDemo.debug.xcconfig"; sourceTree = "<group>"; };
 		881EDC2EA63F0C4200A37590 /* libPods-ArchDemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ArchDemo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CC2684C51E7D01D700B0A221 /* MovieModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MovieModel.h; sourceTree = "<group>"; };
+		CC2684C61E7D01D700B0A221 /* MovieModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MovieModel.m; sourceTree = "<group>"; };
 		CC3AAE3F1E6D8F7400C5EB3A /* GuidePageManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GuidePageManager.h; sourceTree = "<group>"; };
 		CC3AAE401E6D8F7400C5EB3A /* GuidePageManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GuidePageManager.m; sourceTree = "<group>"; };
 		CC7A68121E724D9E00A7C3E8 /* MovieListRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MovieListRequest.h; sourceTree = "<group>"; };
@@ -286,6 +289,7 @@
 		24A7740D1E696F5B00297E35 /* Home */ = {
 			isa = PBXGroup;
 			children = (
+				CC2684C41E7D01BD00B0A221 /* Model */,
 				CC7A680B1E724C1000A7C3E8 /* ViewModel */,
 				24A7740E1E696F5B00297E35 /* HomeVC.h */,
 				24A7740F1E696F5B00297E35 /* HomeVC.m */,
@@ -300,6 +304,15 @@
 				24A774121E696F5B00297E35 /* ProfileVC.m */,
 			);
 			path = Profile;
+			sourceTree = "<group>";
+		};
+		CC2684C41E7D01BD00B0A221 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				CC2684C51E7D01D700B0A221 /* MovieModel.h */,
+				CC2684C61E7D01D700B0A221 /* MovieModel.m */,
+			);
+			name = Model;
 			sourceTree = "<group>";
 		};
 		CC7A680B1E724C1000A7C3E8 /* ViewModel */ = {
@@ -600,6 +613,7 @@
 				24A774071E696F3D00297E35 /* TabbarManager.m in Sources */,
 				CC7D570B1E568ABA00A5B31F /* QryViewController.m in Sources */,
 				245964D91E55A56D00D3BE1F /* DeviceUtil.m in Sources */,
+				CC2684C71E7D01D700B0A221 /* MovieModel.m in Sources */,
 				245964D51E559E5F00D3BE1F /* DeviceAdapt.m in Sources */,
 				CC7D570D1E568ABA00A5B31F /* QryActivityViewModel.m in Sources */,
 				CC7D589B1E601F1F00A5B31F /* GuidePageViewController.m in Sources */,
