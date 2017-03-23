@@ -9,6 +9,10 @@
 #import <Foundation/Foundation.h>
 
 @interface MovieModel : NSObject
+@property(nonatomic, copy)NSNumber *count;
+@property(nonatomic, copy)NSNumber *start;
+@property(nonatomic, copy)NSArray *subjects;    //sujects<movieDetailModel>
 @property(nonatomic, copy)NSString *title;
-@property(nonatomic, copy)NSString *year;
+@property(nonatomic, copy)NSNumber *total;
+
 @end

@@ -7,7 +7,12 @@
 //
 
 #import "MovieModel.h"
+#import "MovieDetailModel.h"
 
 @implementation MovieModel
-
++ (NSDictionary *)modelContainerPropertyGenericClass {
+    // value should be Class or Class name.
+    return @{@"subjects" : [MovieDetailModel class],
+             };
+}
 @end

@@ -22,6 +22,7 @@
     self.title = @"主页";
     MovieListViewModel *movieViewModel = [[MovieListViewModel alloc] init];
     [movieViewModel setBlockWithReturnBlock:^(id returnValue) {
+        
         NSLog(@"returnValue ====  %@",returnValue);
         
     } withErrorBlock:^(NSInteger errorCode) {

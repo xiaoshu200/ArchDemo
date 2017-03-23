@@ -28,6 +28,7 @@
 		24A774161E696F5B00297E35 /* ProfileVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 24A774121E696F5B00297E35 /* ProfileVC.m */; };
 		2CE203618EE138A5DF805850 /* libPods-ArchDemo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 881EDC2EA63F0C4200A37590 /* libPods-ArchDemo.a */; };
 		CC2684C71E7D01D700B0A221 /* MovieModel.m in Sources */ = {isa = PBXBuildFile; fileRef = CC2684C61E7D01D700B0A221 /* MovieModel.m */; };
+		CC2D426A1E83A9830027D786 /* MovieDetailModel.m in Sources */ = {isa = PBXBuildFile; fileRef = CC2D42691E83A9830027D786 /* MovieDetailModel.m */; };
 		CC3AAE411E6D8F7400C5EB3A /* GuidePageManager.m in Sources */ = {isa = PBXBuildFile; fileRef = CC3AAE401E6D8F7400C5EB3A /* GuidePageManager.m */; };
 		CC7A68141E724D9E00A7C3E8 /* MovieListRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = CC7A68131E724D9E00A7C3E8 /* MovieListRequest.m */; };
 		CC7A68171E724DCF00A7C3E8 /* MovieListViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = CC7A68161E724DCF00A7C3E8 /* MovieListViewModel.m */; };
@@ -101,6 +102,8 @@
 		881EDC2EA63F0C4200A37590 /* libPods-ArchDemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ArchDemo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		CC2684C51E7D01D700B0A221 /* MovieModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MovieModel.h; sourceTree = "<group>"; };
 		CC2684C61E7D01D700B0A221 /* MovieModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MovieModel.m; sourceTree = "<group>"; };
+		CC2D42681E83A9830027D786 /* MovieDetailModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MovieDetailModel.h; sourceTree = "<group>"; };
+		CC2D42691E83A9830027D786 /* MovieDetailModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MovieDetailModel.m; sourceTree = "<group>"; };
 		CC3AAE3F1E6D8F7400C5EB3A /* GuidePageManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GuidePageManager.h; sourceTree = "<group>"; };
 		CC3AAE401E6D8F7400C5EB3A /* GuidePageManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GuidePageManager.m; sourceTree = "<group>"; };
 		CC7A68121E724D9E00A7C3E8 /* MovieListRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MovieListRequest.h; sourceTree = "<group>"; };
@@ -311,6 +314,8 @@
 			children = (
 				CC2684C51E7D01D700B0A221 /* MovieModel.h */,
 				CC2684C61E7D01D700B0A221 /* MovieModel.m */,
+				CC2D42681E83A9830027D786 /* MovieDetailModel.h */,
+				CC2D42691E83A9830027D786 /* MovieDetailModel.m */,
 			);
 			name = Model;
 			sourceTree = "<group>";
@@ -618,6 +623,7 @@
 				CC7D570D1E568ABA00A5B31F /* QryActivityViewModel.m in Sources */,
 				CC7D589B1E601F1F00A5B31F /* GuidePageViewController.m in Sources */,
 				245964CC1E554FBB00D3BE1F /* UIFont+Adapt.m in Sources */,
+				CC2D426A1E83A9830027D786 /* MovieDetailModel.m in Sources */,
 				CC7D570C1E568ABA00A5B31F /* QryActivityRequest.m in Sources */,
 				244396B51E4958110015816E /* AppDelegate.m in Sources */,
 				245964D21E5550C500D3BE1F /* DeviceHelper.m in Sources */,

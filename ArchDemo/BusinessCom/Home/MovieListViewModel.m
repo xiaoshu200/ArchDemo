@@ -9,6 +9,7 @@
 #import "MovieListViewModel.h"
 #import "MovieListRequest.h"
 #import "MovieModel.h"
+#import "YYModel.h"
 
 @implementation MovieListViewModel
 - (void)requestMovieList
@@ -18,8 +19,8 @@
          {
              //请求成功
              NSLog(@"response success:%@", returnValue);
-//             MovieModel *movieModel = [MovieModel yy_modelWithJSON:returnValue];
-//             self.returnBlock(model);
+             MovieModel *movieModel = [MovieModel yy_modelWithJSON:returnValue];
+             self.returnBlock(movieModel);
          } withErrorBlock:^(NSInteger errorCode) {
              //返回错误
              NSLog(@"errcode:%ld", (long)errorCode);
@@ -30,12 +31,5 @@
              self.failureBlock(msg);
          }];
         [request sendRequest];
-    
-//    testRequest *test = [[testRequest alloc] init];
-//    [test startWithCompletionBlockWithSuccess:^(__kindof YTKBaseRequest * _Nonnull request) {
-//        NSLog(@"success");
-//    } failure:^(__kindof YTKBaseRequest * _Nonnull request) {
-//        NSLog(@"fail");
-//    }];
 }
 @end
