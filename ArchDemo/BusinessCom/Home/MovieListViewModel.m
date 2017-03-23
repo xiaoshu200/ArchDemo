@@ -11,6 +11,7 @@
 #import "MovieModel.h"
 #import "YYModel.h"
 
+
 @implementation MovieListViewModel
 - (void)requestMovieList
 {
@@ -21,14 +22,15 @@
              NSLog(@"response success:%@", returnValue);
              MovieModel *movieModel = [MovieModel yy_modelWithJSON:returnValue];
              self.returnBlock(movieModel);
+
          } withErrorBlock:^(NSInteger errorCode) {
              //返回错误
              NSLog(@"errcode:%ld", (long)errorCode);
-             self.errorBlock(errorCode);
+//             self.errorBlock(errorCode);
          } withFailureBlock:^(NSString *msg){
              //请求失败
              NSLog(@"response error:%@", msg);
-             self.failureBlock(msg);
+//             self.failureBlock(msg);
          }];
         [request sendRequest];
 }

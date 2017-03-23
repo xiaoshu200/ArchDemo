@@ -26,6 +26,7 @@
 		24A774141E696F5B00297E35 /* DiscoveryDetailVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 24A7740C1E696F5B00297E35 /* DiscoveryDetailVC.m */; };
 		24A774151E696F5B00297E35 /* HomeVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 24A7740F1E696F5B00297E35 /* HomeVC.m */; };
 		24A774161E696F5B00297E35 /* ProfileVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 24A774121E696F5B00297E35 /* ProfileVC.m */; };
+		24CD77B51E7A245600779512 /* HTBaseRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 24CD77B41E7A245600779512 /* HTBaseRequest.m */; };
 		2CE203618EE138A5DF805850 /* libPods-ArchDemo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 881EDC2EA63F0C4200A37590 /* libPods-ArchDemo.a */; };
 		CC2684C71E7D01D700B0A221 /* MovieModel.m in Sources */ = {isa = PBXBuildFile; fileRef = CC2684C61E7D01D700B0A221 /* MovieModel.m */; };
 		CC2D426A1E83A9830027D786 /* MovieDetailModel.m in Sources */ = {isa = PBXBuildFile; fileRef = CC2D42691E83A9830027D786 /* MovieDetailModel.m */; };
@@ -98,6 +99,9 @@
 		24A7740F1E696F5B00297E35 /* HomeVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HomeVC.m; sourceTree = "<group>"; };
 		24A774111E696F5B00297E35 /* ProfileVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ProfileVC.h; sourceTree = "<group>"; };
 		24A774121E696F5B00297E35 /* ProfileVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ProfileVC.m; sourceTree = "<group>"; };
+		24CD77B31E7A245600779512 /* HTBaseRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HTBaseRequest.h; sourceTree = "<group>"; };
+		24CD77B41E7A245600779512 /* HTBaseRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HTBaseRequest.m; sourceTree = "<group>"; };
+		24CD77B61E7A289000779512 /* HTNetworkDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HTNetworkDelegate.h; sourceTree = "<group>"; };
 		4CCFBF0950A107A70CAD473A /* Pods-ArchDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ArchDemo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ArchDemo/Pods-ArchDemo.debug.xcconfig"; sourceTree = "<group>"; };
 		881EDC2EA63F0C4200A37590 /* libPods-ArchDemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ArchDemo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		CC2684C51E7D01D700B0A221 /* MovieModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MovieModel.h; sourceTree = "<group>"; };
@@ -238,6 +242,9 @@
 		245964B81E554E6900D3BE1F /* Network */ = {
 			isa = PBXGroup;
 			children = (
+				24CD77B61E7A289000779512 /* HTNetworkDelegate.h */,
+				24CD77B31E7A245600779512 /* HTBaseRequest.h */,
+				24CD77B41E7A245600779512 /* HTBaseRequest.m */,
 				245964B91E554E6900D3BE1F /* ArchBaseRequest.h */,
 				245964BA1E554E6900D3BE1F /* ArchBaseRequest.m */,
 				245964BB1E554E6900D3BE1F /* ArchBaseViewModel.h */,
@@ -292,7 +299,6 @@
 		24A7740D1E696F5B00297E35 /* Home */ = {
 			isa = PBXGroup;
 			children = (
-				CC2684C41E7D01BD00B0A221 /* Model */,
 				CC7A680B1E724C1000A7C3E8 /* ViewModel */,
 				24A7740E1E696F5B00297E35 /* HomeVC.h */,
 				24A7740F1E696F5B00297E35 /* HomeVC.m */,
@@ -618,9 +624,9 @@
 				24A774071E696F3D00297E35 /* TabbarManager.m in Sources */,
 				CC7D570B1E568ABA00A5B31F /* QryViewController.m in Sources */,
 				245964D91E55A56D00D3BE1F /* DeviceUtil.m in Sources */,
-				CC2684C71E7D01D700B0A221 /* MovieModel.m in Sources */,
 				245964D51E559E5F00D3BE1F /* DeviceAdapt.m in Sources */,
 				CC7D570D1E568ABA00A5B31F /* QryActivityViewModel.m in Sources */,
+				24CD77B51E7A245600779512 /* HTBaseRequest.m in Sources */,
 				CC7D589B1E601F1F00A5B31F /* GuidePageViewController.m in Sources */,
 				245964CC1E554FBB00D3BE1F /* UIFont+Adapt.m in Sources */,
 				CC2D426A1E83A9830027D786 /* MovieDetailModel.m in Sources */,

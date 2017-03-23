@@ -10,6 +10,7 @@
 #import "View+MASAdditions.h"
 #import "DiscoveryDetailVC.h"
 
+#import "QryActivityViewModel.h"
 
 @interface DiscoverVC ()
 
@@ -38,6 +39,9 @@
     
     //添加视图
     [self.view addSubview:self.loginBtn];
+    
+    QryActivityViewModel *viewModel = [[QryActivityViewModel alloc] init];
+    [viewModel qryActivyArray];
     
     [self updateConstraints];
 }
